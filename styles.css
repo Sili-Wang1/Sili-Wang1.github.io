@@ -47,8 +47,9 @@ strong { color: var(--ink); font-weight: 500; }
 .about-heading { margin-bottom: 49px; }
 .about-heading h1 { max-width: 840px; font-size: clamp(38px, 4.7vw, 56px); line-height: 1.16; letter-spacing: -1.5px; margin: 0; }
 .about-body { max-width: 800px; }
-.about-introduction p { margin: 0 0 19px; color: #4e554d; }
-.about-introduction p:first-child { font-size: 20px; line-height: 1.7; color: var(--ink); }
+.about-introduction p { margin: 0 0 22px; font-size: 18px; line-height: 1.8; color: var(--ink); }
+.about-introduction a { color: var(--accent); text-decoration-color: #a0aa95; }
+.about-introduction a:hover { text-decoration-color: currentColor; }
 .about-section { margin-top: 39px; padding-top: 28px; border-top: 1px solid var(--line); }
 h2 { font-size: 18px; line-height: 1.4; font-weight: 600; letter-spacing: -.2px; margin: 0 0 22px; }
 .interest-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 16px; color: var(--muted); }
@@ -130,7 +131,6 @@ h3 { margin: 0; font-size: 16px; line-height: 1.6; font-weight: 600; }
   .about-heading { margin-bottom: 30px; }
   .about-heading h1 { font-size: clamp(31px, 7.5vw, 43px); letter-spacing: -.9px; line-height: 1.2; }
   .about-introduction p { font-size: 16px; }
-  .about-introduction p:first-child { font-size: 18px; }
   .about-section { margin-top: 31px; padding-top: 25px; }
   .entry-heading { display: block; }
   .entry-heading .entry-date { margin-top: 4px; }
