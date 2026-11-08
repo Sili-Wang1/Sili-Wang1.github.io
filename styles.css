@@ -48,8 +48,9 @@ strong { color: var(--ink); font-weight: 500; }
 .about-heading h1 { max-width: 840px; font-size: clamp(38px, 4.7vw, 56px); line-height: 1.16; letter-spacing: -1.5px; margin: 0; }
 .about-body { max-width: 800px; }
 .about-introduction p { margin: 0 0 22px; font-size: 18px; line-height: 1.8; color: var(--ink); }
-.about-introduction a { color: var(--accent); text-decoration-color: #a0aa95; }
-.about-introduction a:hover { text-decoration-color: currentColor; }
+.about-introduction a,
+.about-introduction a:visited,
+.about-introduction a:hover { color: var(--muted); text-decoration: none; }
 .about-section { margin-top: 39px; padding-top: 28px; border-top: 1px solid var(--line); }
 h2 { font-size: 18px; line-height: 1.4; font-weight: 600; letter-spacing: -.2px; margin: 0 0 22px; }
 .interest-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 16px; color: var(--muted); }
